@@ -1,0 +1,1531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Stanley Services | Building Liberia's Future</title>
+
+<meta name="description" content="Stanley Services is a leading provider of financial, construction, transport, mining, waste management, and agricultural services across Liberia.">
+<meta name="author" content="Stanley Services">
+<meta name="robots" content="index, follow">
+
+<link rel="canonical" href="https://stanley-services-2025.netlify.app/">
+
+<!-- Google Search Console Verification -->
+<meta name="google-site-verification" content="PASTE_GOOGLE_CODE_HERE">
+
+<!-- Open Graph / Social Sharing -->
+<meta property="og:title" content="Stanley Services | Building Liberia's Future">
+<meta property="og:description" content="Delivering financial, construction, transport, mining, waste management, and agricultural services across Liberia.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://stanley-services-2025.netlify.app/">
+<meta property="og:image" content="https://stanley-services-2025.netlify.app/images/og-image.jpg">
+
+<link rel="icon" type="image/png" href="/favicon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+  
+  <style>
+    /* ============================================
+       MODERN RESET & BASE STYLES
+       ============================================ */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      /* Colors */
+      --primary: #0a2540;
+      --primary-light: #1a3a5e;
+      --primary-dark: #051828;
+      --secondary: #1b3a61;
+      --accent: #ffb400;
+      --accent-light: #ffc844;
+      --white: #ffffff;
+      --gray-50: #f9fafb;
+      --gray-100: #f3f4f6;
+      --gray-200: #e5e7eb;
+      --gray-300: #d1d5db;
+      --gray-600: #4b5563;
+      --gray-700: #374151;
+      --success: #10b981;
+      --warning: #f59e0b;
+      --error: #ef4444;
+      
+      /* Shadows */
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+      --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+      --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+      
+      /* Spacing */
+      --spacing-unit: 1rem;
+      --max-width: 1400px;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: var(--gray-700);
+      background: linear-gradient(135deg, #f5f7fa 0%, #f0f4f8 100%);
+      overflow-x: hidden;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Merriweather', serif;
+      font-weight: 700;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      line-height: 1.2;
+    }
+
+    h1 { font-size: clamp(2.5rem, 8vw, 4.5rem); }
+    h2 { font-size: clamp(2rem, 5vw, 3.5rem); }
+    h3 { font-size: 1.5rem; }
+    h4 { font-size: 1.25rem; }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+      transition: all 0.3s ease;
+    }
+
+    button {
+      font-family: 'Inter', sans-serif;
+      cursor: pointer;
+      border: none;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .container {
+      max-width: var(--max-width);
+      margin: 0 auto;
+      padding: 0 clamp(1.5rem, 3vw, 3rem);
+    }
+
+    /* ============================================
+       ANIMATIONS & UTILITIES
+       ============================================ */
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes slideInLeft {
+      from {
+        opacity: 0;
+        transform: translateX(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes slideInRight {
+      from {
+        opacity: 0;
+        transform: translateX(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes scaleIn {
+      from {
+        opacity: 0;
+        transform: scale(0.95);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(10px); }
+    }
+
+    @keyframes glow {
+      0%, 100% { box-shadow: 0 0 20px rgba(255, 180, 0, 0.3); }
+      50% { box-shadow: 0 0 30px rgba(255, 180, 0, 0.5); }
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+
+    @keyframes shimmer {
+      0% { background-position: -1000px 0; }
+      100% { background-position: 1000px 0; }
+    }
+
+    .fade-in-up { animation: fadeInUp 0.8s ease-out forwards; }
+    .fade-in { animation: fadeIn 0.6s ease-out forwards; }
+    .slide-in-left { animation: slideInLeft 0.6s ease-out forwards; }
+    .slide-in-right { animation: slideInRight 0.6s ease-out forwards; }
+    .scale-in { animation: scaleIn 0.5s ease-out forwards; }
+
+    /* ============================================
+       NAVBAR STYLES
+       ============================================ */
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+      background: rgba(255, 255, 255, 0);
+      backdrop-filter: blur(0px);
+      transition: all 0.3s ease;
+      border-bottom: 1px solid transparent;
+    }
+
+    nav.scrolled {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+      box-shadow: var(--shadow-md);
+    }
+
+    nav .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.25rem 0;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      animation: slideInLeft 0.6s ease-out;
+    }
+
+    .logo-icon {
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--primary-dark);
+      box-shadow: 0 4px 12px rgba(255, 180, 0, 0.2);
+      transition: all 0.3s ease;
+    }
+
+    .logo-icon:hover {
+      transform: translateY(-2px) scale(1.05);
+      box-shadow: 0 8px 20px rgba(255, 180, 0, 0.3);
+    }
+
+    .logo-text {
+      font-family: 'Merriweather', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .logo-text .accent {
+      color: var(--accent);
+      display: inline;
+    }
+
+    nav .nav-links {
+      display: flex;
+      gap: 3rem;
+      list-style: none;
+      animation: fadeIn 0.6s ease-out;
+    }
+
+    nav .nav-links a {
+      font-size: 0.9rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gray-700);
+      position: relative;
+      padding: 0.5rem 0;
+    }
+
+    nav .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--accent);
+      transition: width 0.3s ease;
+    }
+
+    nav .nav-links a:hover::after {
+      width: 100%;
+    }
+
+    nav.scrolled .nav-links a {
+      color: var(--primary);
+    }
+
+    .nav-button {
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+      color: var(--primary-dark);
+      padding: 0.75rem 1.75rem;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      box-shadow: 0 4px 12px rgba(255, 180, 0, 0.2);
+      animation: fadeIn 0.6s ease-out 0.2s backwards;
+    }
+
+    .nav-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(255, 180, 0, 0.3);
+      background: var(--white);
+    }
+
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 6px;
+      background: none;
+      padding: 0.5rem;
+    }
+
+    .hamburger div {
+      width: 28px;
+      height: 3px;
+      background: var(--primary);
+      border-radius: 2px;
+      transition: all 0.3s ease;
+    }
+
+    .hamburger.active div:nth-child(1) {
+      transform: rotate(45deg) translate(10px, 10px);
+    }
+
+    .hamburger.active div:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.active div:nth-child(3) {
+      transform: rotate(-45deg) translate(8px, -8px);
+    }
+
+    .mobile-menu {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background: white;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 2rem;
+      border-top: 1px solid var(--gray-200);
+      box-shadow: var(--shadow-lg);
+      animation: slideInLeft 0.3s ease-out;
+    }
+
+    .mobile-menu.show {
+      display: flex;
+    }
+
+    .mobile-menu a {
+      padding: 0.75rem 0;
+      font-weight: 600;
+      color: var(--primary);
+      border-bottom: 1px solid var(--gray-100);
+    }
+
+    .mobile-menu a:last-child {
+      border-bottom: none;
+    }
+
+    /* ============================================
+       HERO SECTION
+       ============================================ */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding-top: 80px;
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--secondary) 100%);
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -10%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(255, 180, 0, 0.15) 0%, transparent 70%);
+      border-radius: 50%;
+      animation: float 6s ease-in-out infinite;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      bottom: -30%;
+      left: -5%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+      border-radius: 50%;
+      animation: float 8s ease-in-out infinite 1s;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 900px;
+      text-align: center;
+      color: white;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      background: rgba(255, 180, 0, 0.15);
+      border: 1px solid rgba(255, 180, 0, 0.4);
+      border-radius: 50px;
+      color: var(--accent-light);
+      font-weight: 600;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 2rem;
+      backdrop-filter: blur(20px);
+      animation: fadeInUp 0.8s ease-out;
+    }
+
+    .hero h1 {
+      font-size: clamp(2.5rem, 8vw, 4.5rem);
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+      color: white;
+      animation: fadeInUp 0.8s ease-out 0.1s backwards;
+    }
+
+    .hero h1 .gradient-text {
+      background: linear-gradient(to right, var(--accent), var(--accent-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: rgba(255, 255, 255, 0.9);
+      max-width: 650px;
+      margin: 0 auto 2.5rem;
+      font-weight: 300;
+      animation: fadeInUp 0.8s ease-out 0.2s backwards;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.25rem;
+      justify-content: center;
+      animation: fadeInUp 0.8s ease-out 0.3s backwards;
+    }
+
+    .btn {
+      padding: 1rem 2.5rem;
+      border-radius: 50px;
+      font-weight: 600;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%);
+      color: var(--primary-dark);
+      box-shadow: 0 8px 20px rgba(255, 180, 0, 0.25);
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(255, 180, 0, 0.4);
+      background: var(--white);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: white;
+      border: 2px solid rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(10px);
+    }
+
+    .btn-secondary:hover {
+      background: rgba(255, 255, 255, 0.1);
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+
+    .scroll-indicator {
+      position: absolute;
+      bottom: 3rem;
+      left: 50%;
+      transform: translateX(-50%);
+      color: white;
+      opacity: 0.6;
+      animation: bounce 2s infinite;
+    }
+
+    .scroll-indicator svg {
+      width: 24px;
+      height: 36px;
+      stroke: currentColor;
+      stroke-width: 2;
+      fill: none;
+    }
+
+    /* ============================================
+       SERVICES SECTION
+       ============================================ */
+    .services {
+      padding: 6rem 0;
+      background: linear-gradient(180deg, #f5f7fa 0%, #ffffff 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .services::before {
+      content: '';
+      position: absolute;
+      top: -50%;
+      right: -20%;
+      width: 800px;
+      height: 800px;
+      background: radial-gradient(circle, rgba(10, 37, 64, 0.05) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 1rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    section h2::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 4px;
+      background: linear-gradient(to right, var(--accent), var(--accent-light));
+      margin: 1.5rem auto 0;
+      border-radius: 2px;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: var(--gray-600);
+      max-width: 600px;
+      margin: 0 auto 3rem;
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2.5rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    .service-card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 16px;
+      box-shadow: var(--shadow-md);
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(0, 0, 0, 0.05);
+    }
+
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(to right, var(--accent), var(--accent-light));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-xl);
+    }
+
+    .service-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .service-icon {
+      width: 70px;
+      height: 70px;
+      background: linear-gradient(135deg, rgba(255, 180, 0, 0.1), rgba(255, 196, 68, 0.05));
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+      transition: all 0.3s ease;
+    }
+
+    .service-card:hover .service-icon {
+      background: linear-gradient(135deg, var(--accent), var(--accent-light));
+      transform: scale(1.1) rotate(-10deg);
+    }
+
+    .service-card h3 {
+      font-size: 1.35rem;
+      margin-bottom: 1rem;
+      color: var(--primary);
+    }
+
+    .service-card p {
+      color: var(--gray-600);
+      line-height: 1.8;
+      font-size: 0.95rem;
+    }
+
+    /* ============================================
+       ABOUT SECTION
+       ============================================ */
+    .about {
+      padding: 6rem 0;
+      background: linear-gradient(180deg, white 0%, #f5f7fa 100%);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .about::before {
+      content: '';
+      position: absolute;
+      top: -40%;
+      left: -20%;
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, rgba(10, 37, 64, 0.05) 0%, transparent 70%);
+      border-radius: 50%;
+      pointer-events: none;
+    }
+
+    .about-content {
+      position: relative;
+      z-index: 2;
+    }
+
+    .about-text {
+      max-width: 750px;
+      margin: 0 auto;
+    }
+
+    .about-text h2 {
+      margin-bottom: 1.5rem;
+    }
+
+    .about-text p {
+      color: var(--gray-600);
+      line-height: 1.8;
+      font-size: 1.05rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .partner-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .partner-item {
+      background: white;
+      padding: 1.25rem;
+      border-radius: 12px;
+      border-left: 4px solid var(--accent);
+      font-weight: 500;
+      color: var(--primary);
+      box-shadow: var(--shadow-sm);
+      transition: all 0.3s ease;
+    }
+
+    .partner-item:hover {
+      transform: translateX(8px);
+      box-shadow: var(--shadow-md);
+    }
+
+    /* ============================================
+       TESTIMONIALS SECTION
+       ============================================ */
+    .testimonials {
+      padding: 6rem 0;
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 50%, var(--secondary) 100%);
+      color: white;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .testimonials::before {
+      content: '';
+      position: absolute;
+      top: -20%;
+      right: -10%;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, rgba(255, 180, 0, 0.15) 0%, transparent 70%);
+      border-radius: 50%;
+      animation: float 8s ease-in-out infinite;
+    }
+
+    .testimonials::after {
+      content: '';
+      position: absolute;
+      bottom: -10%;
+      left: -5%;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(255, 255, 255, 0.05) 0%, transparent 70%);
+      border-radius: 50%;
+      animation: float 10s ease-in-out infinite 1s;
+    }
+
+    .testimonials h2 {
+      color: white;
+      position: relative;
+      z-index: 2;
+    }
+
+    .testimonials h2::after {
+      background: linear-gradient(to right, var(--accent), var(--accent-light));
+    }
+
+    .testimonial-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 2.5rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    .testimonial-card {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(20px);
+      padding: 2.5rem;
+      border-radius: 16px;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .testimonial-card:hover {
+      background: rgba(255, 255, 255, 0.12);
+      border-color: var(--accent);
+      transform: translateY(-8px);
+      box-shadow: 0 8px 32px rgba(255, 180, 0, 0.15);
+    }
+
+    .testimonial-quote {
+      font-style: italic;
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 1.5rem;
+      color: rgba(255, 255, 255, 0.95);
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .author-avatar {
+      width: 50px;
+      height: 50px;
+      background: linear-gradient(135deg, var(--accent), var(--accent-light));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--primary-dark);
+    }
+
+    .author-info h4 {
+      color: white;
+      margin: 0 0 0.2rem 0;
+    }
+
+    .author-info p {
+      color: var(--accent-light);
+      font-size: 0.85rem;
+      margin: 0;
+    }
+
+    /* ============================================
+       CONTACT SECTION
+       ============================================ */
+    .contact {
+      padding: 6rem 0;
+      background: white;
+    }
+
+    .contact .container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+    }
+
+    .contact-info h2 {
+      margin-bottom: 1.5rem;
+    }
+
+    .contact-info p {
+      color: var(--gray-600);
+      line-height: 1.8;
+      font-size: 1.05rem;
+      margin-bottom: 2.5rem;
+    }
+
+    .contact-details {
+      display: flex;
+      flex-direction: column;
+      gap: 2.5rem;
+    }
+
+    .contact-item {
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    .contact-icon {
+      width: 60px;
+      height: 60px;
+      background: linear-gradient(135deg, rgba(255, 180, 0, 0.1), rgba(255, 196, 68, 0.05));
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.8rem;
+      flex-shrink: 0;
+    }
+
+    .contact-item h4 {
+      color: var(--primary);
+      margin: 0 0 0.5rem 0;
+      font-size: 1.15rem;
+    }
+
+    .contact-item p {
+      margin: 0;
+      font-size: 0.95rem;
+    }
+
+    /* ============================================
+       STATS SECTION
+       ============================================ */
+    .stats-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 2.5rem;
+      margin-bottom: 4rem;
+    }
+
+    .stat-card {
+      background: linear-gradient(135deg, rgba(255, 180, 0, 0.05), rgba(255, 196, 68, 0.02));
+      padding: 2.5rem;
+      border-radius: 16px;
+      border: 2px solid rgba(255, 180, 0, 0.2);
+      text-align: center;
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .stat-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(to right, var(--accent), var(--accent-light));
+      transform: scaleX(0);
+      transform-origin: center;
+      transition: transform 0.3s ease;
+    }
+
+    .stat-card:hover {
+      transform: translateY(-8px);
+      border-color: var(--accent);
+      box-shadow: 0 8px 24px rgba(255, 180, 0, 0.1);
+    }
+
+    .stat-card:hover::before {
+      transform: scaleX(1);
+    }
+
+    .stat-number {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 0.5rem;
+      font-family: 'Merriweather', serif;
+    }
+
+    .stat-label {
+      color: var(--gray-600);
+      font-size: 0.95rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* ============================================
+       FEATURES SECTION
+       ============================================ */
+    .features-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-bottom: 3rem;
+    }
+
+    .feature-card {
+      background: white;
+      padding: 2.5rem;
+      border-radius: 16px;
+      border: 1px solid var(--gray-200);
+      box-shadow: var(--shadow-md);
+      transition: all 0.3s ease;
+      position: relative;
+    }
+
+    .feature-card:hover {
+      transform: translateY(-8px);
+      box-shadow: var(--shadow-xl);
+      border-color: var(--accent);
+    }
+
+    .feature-icon {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+
+    .feature-card h4 {
+      color: var(--primary);
+      margin-bottom: 0.75rem;
+      font-size: 1.15rem;
+    }
+
+    .feature-card p {
+      color: var(--gray-600);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    .cta-buttons {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2.5rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: var(--primary);
+      border: 2px solid var(--primary);
+      padding: 0.75rem 1.75rem;
+      font-weight: 600;
+      border-radius: 50px;
+      font-size: 0.9rem;
+      transition: all 0.3s ease;
+    }
+
+    .btn-outline:hover {
+      background: var(--primary);
+      color: white;
+      transform: translateY(-3px);
+    }
+
+    /* ============================================
+       FOOTER
+       ============================================ */
+    footer {
+      background: linear-gradient(135deg, var(--primary-dark) 0%, var(--primary) 100%);
+      color: white;
+      padding: 4rem 0 2rem;
+    }
+
+    footer .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    footer h3 {
+      color: white;
+      margin-bottom: 1.5rem;
+    }
+
+    footer p {
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.8;
+      font-size: 0.95rem;
+    }
+
+    footer ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    footer a {
+      color: var(--accent-light);
+      transition: all 0.3s ease;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      color: white;
+      transform: translateX(4px);
+    }
+
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+
+    .social-links a {
+      width: 44px;
+      height: 44px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.3s ease;
+      border: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .social-links a:hover {
+      background: var(--accent);
+      color: var(--primary-dark);
+      transform: translateY(-4px) scale(1.1);
+      border-color: var(--accent);
+    }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      padding-top: 2rem;
+      text-align: center;
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 0.9rem;
+    }
+
+    /* ============================================
+       RESPONSIVE DESIGN
+       ============================================ */
+    @media (max-width: 768px) {
+      nav .nav-links {
+        display: none;
+      }
+
+      .hamburger {
+        display: flex;
+      }
+
+      .contact .container {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+      }
+
+      .form-row {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      }
+
+      .service-grid,
+      .testimonial-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .hero {
+        padding-top: 70px;
+      }
+
+      section {
+        padding: 4rem 0;
+      }
+
+      .hero-buttons {
+        flex-direction: column;
+      }
+
+      .btn {
+        width: 100%;
+      }
+
+      footer .container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .footer-bottom {
+        text-align: center;
+      }
+
+      .contact-form {
+        padding: 2rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      h1 { font-size: 2rem; }
+      h2 { font-size: 1.5rem; }
+      section { padding: 3rem 0; }
+      .logo-text { font-size: 1.25rem; }
+      .hero p { font-size: 1rem; }
+      nav .container { padding: 1rem 0; }
+    }
+  </style>
+</head>
+<body>
+  <!-- ============================================
+       NAVBAR
+       ============================================ -->
+  <nav id="navbar">
+    <div class="container">
+      <a href="#hero" class="logo">
+        <div class="logo-icon">S</div>
+        <div class="logo-text">Stanley<span class="accent">Services</span></div>
+      </a>
+      
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      
+      <button class="nav-button" onclick="contactVia('phone')">Call Now</button>
+      
+      <button class="hamburger" id="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" onclick="closeMobileMenu()">About</a>
+      <a href="#services" onclick="closeMobileMenu()">Services</a>
+      <a href="#testimonials" onclick="closeMobileMenu()">Testimonials</a>
+      <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+      <button class="nav-button" onclick="contactVia('phone'); closeMobileMenu()">Call Now</button>
+    </div>
+  </nav>
+
+  <!-- ============================================
+       HERO SECTION
+       ============================================ -->
+  <section class="hero" id="hero">
+    <div class="hero-content">
+      <div class="hero-badge">🚀 Liberian Owned & Operated Since 2020</div>
+      <h1>Swift Financial Solutions & Industrial Excellence</h1>
+      <p>Stanley Services pioneers real-time electronic financial transactions, construction, mining, and sustainable solutions across Liberia. Your trusted partner for growth and innovation.</p>
+      <div class="hero-buttons">
+        <button class="btn btn-primary" onclick="scrollTo('#services')">Discover Services</button>
+        <button class="btn btn-secondary" onclick="contactVia('whatsapp')">Message on WhatsApp</button>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <svg viewBox="0 0 24 24">
+        <path d="M12 5v14M5 12l7 7 7-7" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ============================================
+       ABOUT SECTION
+       ============================================ -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-content">
+        <div class="about-text">
+          <h2>About Stanley Services</h2>
+          <p>Stanley Services is a Liberian-owned business corporation established in 2020, pioneering swift electronic financial transactions and real-time service delivery. We serve as the official agent for:</p>
+          <div class="partner-list">
+            <div class="partner-item">🏦 Ecobank Liberia - Agency Banking</div>
+            <div class="partner-item">📱 MTN Liberia - Mobile Services</div>
+            <div class="partner-item">⚡ Liberia Electricity Corporation</div>
+            <div class="partner-item">📺 DSTV - Digital Television</div>
+          </div>
+          <p style="margin-top: 1.5rem;">Our mission is to deliver excellence across financial services, construction, mining, transportation, and sustainable solutions throughout Liberia.</p>
+          <div style="display: flex; gap: 1rem; margin-top: 2rem;">
+            <button class="btn btn-primary" onclick="contactVia('phone')">📞 +231 777 095 911</button>
+            <button class="btn-outline" onclick="contactVia('whatsapp')">💬 WhatsApp</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       SERVICES SECTION
+       ============================================ -->
+  <section class="services" id="services">
+    <div class="container">
+      <h2>Our Comprehensive Services</h2>
+      <p class="section-subtitle">Full-spectrum solutions for your financial, industrial, and development needs.</p>
+      
+      <div class="service-grid">
+        <div class="service-card fade-in-up">
+          <div class="service-icon">💰</div>
+          <h3>Agency Banking</h3>
+          <p>Official Ecobank agent offering secure electronic financial transactions, transfers, bill payments, and swift banking services in real-time.</p>
+        </div>
+
+        <div class="service-card fade-in-up" style="animation-delay: 0.1s;">
+          <div class="service-icon">🏗️</div>
+          <h3>Construction Services</h3>
+          <p>Complete construction solutions including commercial buildings, civil engineering projects, and infrastructure development.</p>
+        </div>
+
+        <div class="service-card fade-in-up" style="animation-delay: 0.2s;">
+          <div class="service-icon">🚚</div>
+          <h3>Transportation & Equipment Rental</h3>
+          <p>Professional rental and transportation of heavy equipment, machinery, and fleet management for all project sizes.</p>
+        </div>
+
+        <div class="service-card fade-in-up" style="animation-delay: 0.3s;">
+          <div class="service-icon">⛏️</div>
+          <h3>Mining Operations</h3>
+          <p>Responsible mining operations and sale of mining equipment and accessories with full compliance to safety standards.</p>
+        </div>
+
+        <div class="service-card fade-in-up" style="animation-delay: 0.4s;">
+          <div class="service-icon">♻️</div>
+          <h3>Solid Waste Management</h3>
+          <p>Comprehensive waste management and recycling solutions for environmental protection and community cleanliness.</p>
+        </div>
+
+        <div class="service-card fade-in-up" style="animation-delay: 0.5s;">
+          <div class="service-icon">🌾</div>
+          <h3>Agricultural Services</h3>
+          <p>Modern agricultural activities and supply chain management to boost local food production and sustainability.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       TESTIMONIALS SECTION
+       ============================================ -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2>Trusted by Industry Leaders</h2>
+      
+      <div class="testimonial-grid">
+        <div class="testimonial-card scale-in">
+          <p class="testimonial-quote">"Stanley Services has been instrumental in our construction projects. Their attention to detail and timely delivery is unmatched."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">EJ</div>
+            <div class="author-info">
+              <h4>Emmanuel K. Johnson</h4>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card scale-in" style="animation-delay: 0.1s;">
+          <p class="testimonial-quote">"A reliable partner for complex logistics. They handle our mining equipment transport with absolute professionalism."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">SK</div>
+            <div class="author-info">
+              <h4>Samuel T. Kamara</h4>
+              
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card scale-in" style="animation-delay: 0.2s;">
+          <p class="testimonial-quote">"Their agricultural support services transformed our yield efficiency. Highly recommended for large-scale operations."</p>
+          <div class="testimonial-author">
+            <div class="author-avatar">JK</div>
+            <div class="author-info">
+              <h4>James P. Kollie</h4>
+           
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       CONTACT SECTION
+       ============================================ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-info">
+        <h2>Let's Discuss Your Next Project</h2>
+        <p>Whether you need industrial scale construction, financial consultation, or logistical support, our team is ready to assist you.</p>
+        
+        <div class="contact-details">
+          <div class="contact-item">
+            <div class="contact-icon">📍</div>
+            <div>
+              <h4>Headquarters</h4>
+              <p>Bing Mine Bridge, Monrovia<br>Liberia</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">📞</div>
+            <div>
+              <h4>Phone</h4>
+              <p>+231 777 095 911<br>+231 886 953 588 (WhatsApp)</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">✉️</div>
+            <div>
+              <h4>Email</h4>
+              <p>stanleyservices85@gmail.com</p>
+            </div>
+          </div>
+
+          <div class="contact-item">
+            <div class="contact-icon">🕐</div>
+            <div>
+              <h4>Business Hours</h4>
+              <p>Friday - Saturday<br>8:00 AM - 5:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="engagement-section">
+        <h3>Why Choose Stanley Services?</h3>
+        <div class="features-section">
+          <div class="feature-card fade-in-up">
+            <div class="feature-icon">⚡</div>
+            <h4>Fast Execution</h4>
+            <p>Swift project completion without compromising on quality or standards.</p>
+          </div>
+          <div class="feature-card fade-in-up" style="animation-delay: 0.1s;">
+            <div class="feature-icon">🏆</div>
+            <h4>Proven Track Record</h4>
+            <p>Trusted by leading companies and organizations across multiple sectors.</p>
+          </div>
+          <div class="feature-card fade-in-up" style="animation-delay: 0.2s;">
+            <div class="feature-icon">🌍</div>
+            <h4>Sustainable Solutions</h4>
+            <p>Committed to environmentally responsible and sustainable practices.</p>
+          </div>
+        </div>
+        
+        <div class="cta-buttons">
+          <button class="btn btn-primary" onclick="contactVia('phone')">📞 Call Us Now</button>
+          <button class="btn-outline" onclick="contactVia('email')">✉️ Send Email</button>
+          <button class="btn-outline" onclick="contactVia('whatsapp')">💬 WhatsApp</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================
+       FOOTER
+       ============================================ -->
+  <footer>
+    <div class="container">
+      <div>
+        <h3>Stanley Services</h3>
+        <p>Liberian-owned business pioneering swift electronic financial transactions and delivering excellence in construction, mining, transportation, waste management, and agriculture since 2020.</p>
+        <div class="social-links">
+          <a href="tel:+231777095911" title="Call Us">📞</a>
+          <a href="https://wa.me/231886953588" title="WhatsApp">💬</a>
+          <a href="mailto:stanleyservices85@gmail.com" title="Email">✉️</a>
+        </div>
+      </div>
+
+      <div>
+        <h3>Services</h3>
+        <ul>
+          <li><a href="#services">Financial Services</a></li>
+          <li><a href="#services">Construction</a></li>
+          <li><a href="#services">Mining Operations</a></li>
+          <li><a href="#services">Waste Management</a></li>
+          <li><a href="#services">Agriculture</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; 2025 Stanley Services. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </div>
+  </footer>
+
+  <!-- ============================================
+       JAVASCRIPT
+       ============================================ -->
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
+
+    // Mobile menu toggle
+    const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      mobileMenu.classList.toggle('show');
+    });
+
+    function closeMobileMenu() {
+      hamburger.classList.remove('active');
+      mobileMenu.classList.remove('show');
+    }
+
+    // Smooth scroll helper
+    function scrollTo(selector) {
+      const element = document.querySelector(selector);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        closeMobileMenu();
+      }
+    }
+
+    // Contact engagement handlers
+    function contactVia(method) {
+      const phone = '+231777095911';
+      const whatsapp = '+231886953588';
+      const email = 'stanleyservices85@gmail.com';
+      
+      switch(method) {
+        case 'phone':
+          window.location.href = `tel:${phone}`;
+          break;
+        case 'email':
+          window.location.href = `mailto:${email}?subject=Stanley Services Inquiry - Website`;
+          break;
+        case 'whatsapp':
+          window.location.href = `https://wa.me/${whatsapp.replace('+', '')}?text=Hi Stanley Services, I'm interested in your services. Can you help?`;
+          break;
+      }
+    }
+
+    // Intersection Observer for animations on scroll
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('fade-in-up');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, observerOptions);
+
+    // Observe all cards
+    document.querySelectorAll('.service-card, .testimonial-card').forEach(card => {
+      if (!card.classList.contains('fade-in-up')) {
+        observer.observe(card);
+      }
+    });
+
+    // Smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href !== '#' && document.querySelector(href)) {
+          e.preventDefault();
+          scrollTo(href);
+        }
+      });
+    });
+  </script>
+</body>
+</html>
